@@ -55,12 +55,12 @@ nav{
 @media screen and (max-widtH: 768px){
      
   .nav-links{
-    padding: 0px 30px;
+    padding: 0px 30px !important;
     width: 100%;
   }
   .nav-links li{
     opacity: 0;
-    line-height: 30px;
+    line-height: 40px !important;
 
   }
   .nav-links li a{
