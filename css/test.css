@@ -1,0 +1,345 @@
+<!-- ====================== SERVICES =================== -->
+
+<div class="services">
+    <div class="service-title">Services</div>
+    <div class="service-container">
+        <div>Dance Choreography</div>
+        <div>Graphic Design</div>
+        <div>Fashion/Runway Modelling</div>
+        <div> Ecommerce</div>
+        <div>Educational consultancy</div>
+    </div>
+</div>
+
+
+<!-- ======================== Gallery ===================== -->
+<div class="gallery">
+    <div class="gallery-title">
+        Dance Portfolio
+    </div>
+    <div class="gallery-container">
+        <div class="gallery-1">
+            <a href="#">
+                <div class="gallery-vimg">
+                    videos
+                </div>
+            </a>
+            <div class="gallery-text">
+                <h4>Heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qua Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Qua</p>
+            </div>
+        </div>
+        <div class="gallery-1">
+            <a href="">
+                <div class="gallery-vimg">
+                    videos
+                </div>
+            </a>
+            <div class="gallery-text">
+                <h4>Heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qua Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Qua</p>
+            </div>
+        </div>
+        <div class="gallery-1">
+            <a href="#">
+                <div class="gallery-vimg">
+                    videos
+                </div>
+            </a>
+            <div class="gallery-text">
+                <h4>Heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qua Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Qua</p>
+            </div>
+        </div>
+
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 60px;">
+        <a href="#" class="gallery-more">View Instagram for more</a>
+    </div>
+</div>
+
+
+
+<!-- ============================= ABOUT SECTION ============== -->
+<div class="about-section">
+    <div class="about-container">
+        <div class="about0">
+            <div class="about-1">
+                <img src="./images/about.jpg" alt="">
+            </div>
+        </div>
+        <div class="about01">
+            <div class="about-2">
+                <h4>About Me</h4>
+                <h3>I SPECIALIZE IN PROVIDING MY PROFESSIONAL SKILLS AND SERVICES TO PUT A SMILE ON MY CLIENT
+                    FACES.....</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consequatur voluptatum cumque
+                    autem rerum dignissimos rem laborum illum. Labore at aspernatur unde temporibus ipsum non vel
+                    excepturi illum repellendus! Repellat!
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quos veritatis dolor nam totam
+                    voluptates tempora molestiae consequatur odit, sunt labore aut perferendis optio inventore
+                    aliquid ea quo deserunt tenetur!
+                </p>
+                <div class="sat">
+                    <div class="sat1"></div>
+                    <div class="sat1"></div>
+                    <div class="sat1"></div>
+                    <div class="sat1"></div>
+                    <div class="sat1"></div>
+                </div>
+                <div>
+                    <a class="about-button">Download Cv</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="carousel">
+<div class="owl-carousel owl-theme new-caro">
+    <div class="item">
+        <div class="item-1">
+
+        </div>
+    </div>
+    <div class="item">1</div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>  
+</div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+/* .carousel{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid #000;
+}
+.new-caro  .item{
+
+    background-color: red;
+} */
+
+
+
+/* =========================== SERVICES ========================= */
+.services{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+.service-container{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px 70px 60px;
+}
+
+.service-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    /* font-size: 33px; */
+    font-size: 20px;
+
+    font-family: "Poppins";
+}
+.service-container > div{
+    width: 100%;
+    height: 200px;
+    margin: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    padding: 26px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 25px;
+    border: 1px solid #000;
+    border-radius: 20px;
+
+}
+.service-container > div:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* [[[=========================== GALLERY ===================== */
+.gallery{
+    height: auto;
+    width: 100%;
+}
+.gallery-title{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    text-transform: capitalize !important;
+    line-height: 80px;
+}
+.gallery-container{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding: 0px 70px 50px 70px;
+}
+.gallery-container > div{
+    width: 380px;
+    height: auto;
+   margin: 30px 10px;
+}
+.gallery-vimg{
+    height: 250px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #000;
+
+
+    /* ============ to be remove =========== */
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.gallery-text{
+    font-family: "Poppins";
+}
+.gallery-text h4{
+    padding-top: 12px;
+}
+.gallery-text p{
+    padding-top: 6px;
+}
+.gallery-more{
+    /* display: flex;
+    height: 44px;
+    width: 230px; */
+    justify-content: center;
+    padding: 10px  24px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+@media screen and (max-width: 789px){
+    .gallery-container > div{
+        width: 100%;
+    }
+}
+
+
+
+
+/* ============================= ABOUT SECTION ------============ */
+.about-section{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid #000; */
+    padding: 50px 0px;
+    background-color: #000;
+    color: white;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.about0{
+    padding: 30px 10px;
+}
+.about01{
+    padding: 20px 10px;
+}
+.about-1{
+    width: 370px;
+    height: 530px;
+    /* border: 1px solid #000; */
+}
+.about-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sat{
+ height: auto;
+ /* border: 1px solid #000; */
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 30px;
+}
+.sat1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+}
+.about-2{
+    width: 600px;
+    height: auto;
+    /* border: 1px solid #000; */
+    padding: 20px 10px;
+}
+.about-2 h4{
+    font-family: "Overpass";
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.about-2 h3{
+    font-family: "Overpass";
+    font-size: 21px;
+    padding-top: 16px;
+    line-height: 28px;
+}
+.about-2 p{
+    padding-top: 18px;
+    font-family: "Overpass";
+    font-weight: 400;
+    font-size: 15px;
+}
+.about-button{
+    display: flex;
+    color: white;
+    width: 170px;
+    height: 45px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    font-family: "Poppins";
+    margin-top: 33px;
+    background-color: red;
+}
+
+
+
+
