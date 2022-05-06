@@ -56,8 +56,10 @@ nav {
     transition: all 0.3s ease
 }
 
-@media screen and (max-widtH: 768px) {
-  
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 0px 20px;
+    }
     .nav-links {
         padding: 10px 30px !important;
         width: 100%;
@@ -82,7 +84,7 @@ nav {
     }
 
     nav {
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
 
     .nav-links {
