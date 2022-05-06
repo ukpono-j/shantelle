@@ -1055,20 +1055,15 @@ footer {
 }
 
 .about-sss1 {
-    /* width: 400px; */
     height: auto;
-    /* border: 1px solid #000; */
 }
 
 .about-sss2 {
-    /* width: 400px; */
     height: auto;
-    /* border: 1px solid #000; */
 }
 
 .about-sd {
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .about-sd h3 {
@@ -1098,7 +1093,7 @@ footer {
 @media screen and (max-width: 720px){
     .about-sss{
         display: block;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     
     }
     .about-d-txt{
@@ -1108,17 +1103,18 @@ footer {
         height: 60vh;
     }
     .about-d-txt-container{
-        border: 1px solid #000;
+        /* border: 10px solid #000; */
         width: 100%;
     }
-    .about-sss2, .about-sss1{
-        margin-top: 10px;
+    .about-sss2{
+        margin-top: 30px;
     }
+    
     .sdsds{
         font-size: 10px;
     }
     .about-d-txt {
-        padding: 130px 40px 40px 40px;
+        padding: 130px 20px 40px 20px;
     }
     .about-hero {
         height: 60vh;
@@ -1128,7 +1124,6 @@ footer {
 /* ======================= ABOUT ============== */
 .about-gallery {
     height: auto;
-    border: 10px solid #000;
     width: 100%;
     padding: 50px 70px;
 }
@@ -1179,12 +1174,14 @@ footer {
         display: block;
     }
     .about-gallery {
-        padding: 50px 20px;
+        padding: 50px 10px;
     }
     .about-g1 {
         height: 70vh;
     }
-    
+    .fgf {
+        padding: 30px 0px;
+    }
 }
 
 /* ====================== ABOUT CLIENT ============= */
