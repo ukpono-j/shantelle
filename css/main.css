@@ -994,7 +994,7 @@
 }
 @media screen and (max-width: 406px){
     .sub-f-img-container {
-        width: 260px;
+        width: 250px !important;
         margin-bottom: -70px;
         height: 380px;
     }
