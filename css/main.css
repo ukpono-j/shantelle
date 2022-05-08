@@ -950,7 +950,7 @@
 
 .sub-f-img-container {
     width: 350px;
-    /* border: 10px solid red; */
+    border: 10px solid red;
     background-color: transparent;
     position: relative;
     margin-bottom: -110px;
