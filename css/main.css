@@ -901,7 +901,10 @@
     .expert-container>div{
         width: 100%;
         margin: 10px 0px;
+        height: 270px;
     }
+
+    
    .exp-img {
        padding: 0px 50px;
     width: 100%;
