@@ -949,8 +949,8 @@
 }
 
 .sub-f-img-container {
-    width: 350px;
-    border: 10px solid red;
+    width:  100px;
+    /* border: 10px solid red; */
     background-color: transparent;
     position: relative;
     margin-bottom: -110px;
@@ -1045,7 +1045,6 @@ footer {
 .footer-2-new-letter-txtt {
     width: 200px;
     height: auto;
-    /* border: 1px solid white; */
     font-family: "Overpass";
     font-weight: 400;
     font-size: 23px;
@@ -1145,9 +1144,7 @@ footer {
     .footer-container {
         height: auto;
         width: 100%;
-        padding: 50px 0px;
-        border: 1px solid red;
-
+        padding: 50px 0px ;
         margin-top: 30px;
     }
 
