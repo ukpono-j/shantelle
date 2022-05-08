@@ -950,7 +950,7 @@
 
 .sub-f-img-container {
     width: 350px;
-    /* border: 1px solid #b2b2b2; */
+    /* border: 10px solid red; */
     background-color: transparent;
     position: relative;
     margin-bottom: -110px;
@@ -991,6 +991,13 @@
 .sub-f a {
     font-size: 13px;
 }
+}
+@media screen and (max-width: 406px){
+    .sub-f-img-container {
+        width: 260px;
+        margin-bottom: -70px;
+        height: 380px;
+    }
 }
 /* =================== FOOTER ====================== */
 footer {
@@ -1137,9 +1144,9 @@ footer {
 
     .footer-container {
         height: auto;
-        width: 97%;
+        width: 100%;
         padding: 50px 0px;
-        /* border: 1px solid red; */
+        border: 1px solid red;
 
         margin-top: 30px;
     }
