@@ -913,6 +913,9 @@
     z-index: 1000;
     background-color: transparent;
 }
+.expert-container > div img {
+    width: 180px;
+}
 }
 /* ===================== SUB FOOTER =============== */
 .sub-footer {
