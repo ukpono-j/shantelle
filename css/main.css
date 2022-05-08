@@ -984,10 +984,8 @@
 }
 .sub-circle {
     height: 68px;
-    margin: 90px 0px;
+    margin: 40px 0px;
     width: 70px;
-    border: 1px solid #b2b2b2;
-    border-radius: 100%;
     margin-left: 1px;
 }
 }
