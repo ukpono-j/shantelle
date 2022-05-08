@@ -980,7 +980,15 @@
 }
 .sub-f {
     padding: 0px 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+.sub-circle {
+    height: 60px;
+    margin: 90px 0px;
+    width: 70px;
+    border: 1px solid #b2b2b2;
+    border-radius: 100%;
+    margin-left: 3px;
 }
 }
 /* =================== FOOTER ====================== */
