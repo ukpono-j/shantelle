@@ -983,10 +983,13 @@
     /* border: 1px solid red; */
 }
 .sub-circle {
-    height: 68px;
+    height: 50px;
     margin: 40px 0px;
-    width: 70px;
-    margin-left: 1px;
+    width: 50px;
+    margin-left: 4px;
+}
+.sub-f a {
+    font-size: 12px;
 }
 }
 /* =================== FOOTER ====================== */
