@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./LogIn.css"
-import img1 from "../mainComponents/images/bg-01.jpg"
+// import img1 from "../mainComponents/images/bg-01.jpg"
 
 
 const LogIn = () => {

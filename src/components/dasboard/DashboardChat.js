@@ -33,7 +33,7 @@ const DashboardChat = () => {
                             <div className='chat-title'>
                                 <div className='chat-id'>
                                     <div className='chat-id-avatar'>
-                                        <img src={Avatar1} />
+                                        <img src={Avatar1}  alt=""/>
                                     </div>
                                     <div className='chat-id-avatar-txt'>
                                         <h5>Deja Brady</h5>

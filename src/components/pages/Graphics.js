@@ -14,7 +14,7 @@ const Graphics = () => {
       <div className='nnd'>
         <div className='nnd-container'>
           <div className='circle-testimonal-circle'>
-            <img src={TestimonialGraphics} />
+            <img src={TestimonialGraphics}  alt=""/>
           </div>
           <h5>Edidiong Umoh</h5>
           <p>

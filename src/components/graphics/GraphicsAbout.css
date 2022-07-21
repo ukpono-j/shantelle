@@ -19,12 +19,12 @@
 
 .graphics-about-left-container {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .graphics-about-right-container {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .graphic-about-left img {
@@ -112,6 +112,3 @@
 .txt-right{
     padding: 10px;
 }
-/* .btn-right{
-    justify-content: end;
-} */

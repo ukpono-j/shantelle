@@ -1,9 +1,9 @@
 import React from 'react'
 import "./DanceHero.css"
 // import ReactPlayer from 'react-player/lazy'
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 import Video1 from "../videos/video1.mp4"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const DanceHero = () => {
     return (

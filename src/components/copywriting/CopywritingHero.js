@@ -22,10 +22,10 @@ function CopywritingHero() {
         </div>
         <div className='copy-hero-2'>
           <div className='copy-hero-2-container'>
-            <img  src={copy1} />
+            <img  src={copy1} alt="" />
           </div>
           <div className='copy-hero-3-container'>
-            <img  src={copy2} />
+            <img  src={copy2} alt=""/>
           </div>
         </div>
       </div>

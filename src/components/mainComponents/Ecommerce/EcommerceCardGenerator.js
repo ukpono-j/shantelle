@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useEffect, useState } from 'react'
 import "./EcommerceCardGenerator.css"
-import img1 from "../images/22.jpg"
-import img2 from "../images/dd.jpg"
 import img3 from "../images/product1.jpg"
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -13,8 +11,7 @@ let itemList = [];
 items.forEach((item, index) => {
   itemList.push(<div className='ecommerce-gen' key={index}>
     <div className='ecommerce-visual'>
-      <img src={img3} />
-      {/* <img src={img2 /> */}
+      <img src={img3} alt=""/>
       <div className='overlap-1'>
         <div className='overlap-container'>
           <div><FavoriteBorderIcon /></div>

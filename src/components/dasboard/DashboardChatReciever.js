@@ -10,7 +10,7 @@ const DashboardChatReciever = () => {
             <div className='receiver-message'>
             <div className='reciever-txt'>Hey, i'm doing good. how about you...</div>
                 <div className='reciever-image'>
-                    <img  src={Avatar2}/>
+                    <img  src={Avatar2} alt=""/>
                 </div>
             </div>
         </div>

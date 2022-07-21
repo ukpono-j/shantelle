@@ -9,7 +9,7 @@ const DashnoardChatSender = () => {
     <div>
         <div className='chat-sender'>
             <div className='sender-message'>
-                <div className='sender-image'><img  src={Avatar1}/></div>
+                <div className='sender-image'><img  src={Avatar1} alt=""/></div>
                 <div className='sender-txt'>Hey, how are you doing.</div>
             </div>
         </div>

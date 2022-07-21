@@ -3,7 +3,7 @@ import "./EcommercePayment.css"
 import SellIcon from '@mui/icons-material/Sell';
 
 
-let payMent = [20, 30, 30, 40, 50,]
+// let payMent = [20, 30, 30, 40, 50,]
 
 const EcommercePayment = () => {
     return (

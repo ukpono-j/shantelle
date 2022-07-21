@@ -13,7 +13,7 @@
 .tb-txt{
     height: auto;
     width: 100%;
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
 }
 .tvv{

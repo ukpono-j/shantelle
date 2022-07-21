@@ -1,6 +1,6 @@
 import React from 'react'
 import "./GraphicsHero.css"
-import Video1 from "../mainComponents/videos/video5.mp4"
+// import Video1 from "../mainComponents/videos/video5.mp4"
 
 
 const GraphicsHero = () => {

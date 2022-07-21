@@ -20,7 +20,7 @@ const CopywritingAbout = () => {
                 </div>
                 <div>
                     <div className='about-image'>
-                        <img  src={AboutImage}/>
+                        <img  src={AboutImage} alt=""/>
                     </div>
                 </div>
             </div>

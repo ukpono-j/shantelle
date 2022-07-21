@@ -8,7 +8,7 @@ const EcommerceOrder = () => {
             <div className='order-component'>
                 <div className='order-props'>
                     <div className='order-visual'>
-                        <img src={order1} />
+                        <img src={order1} alt="" />
                     </div>
                     <div className='order-visual-description'>
                         <h4>Black Jacket</h4>
@@ -38,7 +38,7 @@ const EcommerceOrder = () => {
             <div className='order-component'>
                 <div className='order-props'>
                     <div className='order-visual'>
-                        <img src={order1} />
+                        <img src={order1} alt=""/>
                     </div>
                     <div className='order-visual-description'>
                         <h4>Black Jacket</h4>
@@ -68,7 +68,7 @@ const EcommerceOrder = () => {
             <div className='order-component'>
                 <div className='order-props'>
                     <div className='order-visual'>
-                        <img src={order1} />
+                        <img src={order1} alt=""/>
                     </div>
                     <div className='order-visual-description'>
                         <h4>Black Jacket</h4>

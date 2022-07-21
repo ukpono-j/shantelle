@@ -14,7 +14,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -26,7 +26,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt="" />
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -38,7 +38,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1}  alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -50,7 +50,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -62,7 +62,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt="" />
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -74,7 +74,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -86,7 +86,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -98,7 +98,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -110,7 +110,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -122,7 +122,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -134,7 +134,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -146,7 +146,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
@@ -158,7 +158,7 @@ const DashboardCustomerAvatar = () => {
             </div>
             <div className='customer-avatar'>
                 <div className='customer-avatar-img'>
-                    <img src={Customer1} />
+                    <img src={Customer1} alt=""/>
                 </div>
                 <div className='customer-avatar-txt-preview'>
                     <div className='cus'>
