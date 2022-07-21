@@ -1,0 +1,24 @@
+.dashboard-content{
+    width: calc(100% - 240px);
+    height: auto;
+    margin-left: 240px;
+    /* border: 4px solid black; */
+    padding: 30px 10px 0px;
+    background-color: rgb(249, 250, 251);
+    /* background-color: #F4FAEB; */
+
+    /* background-color: #f8f9fa; */
+}
+.Dashboard-footer{
+    height: 40px;
+    margin-top: 30px;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-top: 1px solid #2125291a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 30px 20px;
+    color: #6c757d;
+}

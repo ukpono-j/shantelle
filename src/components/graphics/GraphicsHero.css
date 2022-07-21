@@ -1,0 +1,47 @@
+.graphics-hero{
+    height: auto;
+    width: 100%;
+}
+.graphics-container{
+    height: 100vh;
+    width: 100%;
+    /* border: 10px solid green; */
+}
+.graphics-hero{
+    height: auto;
+    width: 100%;
+    border: 1px solid #ffff;
+}
+.graphics-hero-v1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Grapics-content{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Graphics-content-container{
+    width: 49%;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+
+.overlay{
+    position: absolute;
+    /* margin-top: 70px; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+}

@@ -1,0 +1,9 @@
+.dashboard-gen{
+    height: auto;
+    width: 100%;
+    /* border:7px solid black; */
+}
+.dashboard-container{
+     padding: 63px 0px  0px;
+    display: flex;
+}

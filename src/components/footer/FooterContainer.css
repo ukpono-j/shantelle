@@ -1,0 +1,98 @@
+.footer{
+    height: auto;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #000;
+    padding: 50px 50px 10px;
+}
+.footer-container{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid #fff; */
+}
+.footer-container1{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.footer-container1 li{
+    list-style: none;
+    line-height: 42px;
+    color: white;
+}
+.footer-container1 > div{
+    height: auto; 
+    color: white;
+    /* border: 1px solid white; */
+}
+.footer-container1 h4{
+    font-family: 'Lilita One', cursive;
+    font-size: 40px;
+}
+.footer-link{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+.log-foot{
+    width: 40%;
+    /* border: 1px solid #fff; */
+    
+}
+.log-foot p{
+    padding-top: 13px;
+    font-size: 13px;
+}
+.new-letter{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-top: 3px;
+    align-items: center;
+    /* border: 1px solid #fff; */
+}
+.copyright{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding-top: 40px;
+}
+.log-foot input{
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 40px;
+    outline: none;
+    padding-left: 12px;
+}
+.log-foot input::placeholder{
+    color: white;
+}
+.new-submit{
+    width: 130px;
+    height: 40px;
+    background-color: #000;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+@media screen and (max-width: 600px){
+    .footer-container1{
+        flex-direction: column;
+    }
+    .footer{
+        padding: 50px 20px;
+    }
+    .log-foot{
+        width: 100%;
+    }
+}

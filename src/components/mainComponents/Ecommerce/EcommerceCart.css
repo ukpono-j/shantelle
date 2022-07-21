@@ -1,0 +1,44 @@
+.ecommerce-cart{
+    height: auto;
+    padding-top: 62px;
+    width: 100%;
+}
+.cart1{
+    height: auto;
+    width: 100%;
+}
+.cart1-container{
+    display: flex;
+     justify-content: space-between;
+     padding: 30px 70px;
+}
+.ca1{
+    width: 64%;
+    height: auto;
+}
+.ca2{
+    width: 30%;
+    height: auto;
+}
+.go-back-container{
+    padding-left: 80px;
+    padding-top: 30px;
+    
+}
+.go-back{
+    color: white;
+   text-decoration: none;
+   border-radius: 40px;
+   justify-content: center;
+   padding: 10px;
+   font-size: 14px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+.cart1-container h4{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 20px;
+}

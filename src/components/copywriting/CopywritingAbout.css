@@ -1,0 +1,115 @@
+.copywriting-about {
+    height: auto;
+    width: 100%;
+    /* border: 1px solid green; */
+    /* background-color: #E0E5D6; */
+    /* background-color: #F4FAEB; */
+    background-color: #FAFAFA;
+}
+
+.copyywriting-about-container {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.copyywriting-about-container>div {
+    width: 100%;
+    margin: 34px;
+    /* border: 1px solid gray; */
+}
+
+.copyywriting-about-container > div h1 {
+    color: #1B4541;
+    font-family: 'Lilita One', cursive;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.copyywriting-about-container>div p {
+    /* color: #1B4541; */
+    color: #5B6B6A;
+    font-weight: 400;
+    padding-top: 13px;
+    font-size: 15px;
+}
+
+.about-image {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.about-image::before {
+    content: "";
+    height: 150px;
+    position: absolute;
+    z-index: 7;
+    width: 140px;
+    left: -40px;
+    top: -50px;
+    background: url(../mainComponents/images/dot1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-image::after {
+    content: "";
+    height: 100px;
+    width: 141px;
+    border: 2px solid #E0E5D6;
+    position: absolute;
+    right: -73px;
+    top: -40px;
+    z-index: -1;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.copywriting-about-btn {
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.copywriting-about-btn-link {
+    background-color: #1B4541;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 170px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* .copy-about-con{
+    position: relative;
+} */
+.copy-about-con::after {
+    content: "";
+    display: flex;
+    height: 130px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    margin-top: 38px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    /* border: 1px solid red;   */
+    /* background-color:  #E0E5D6; */
+    border: 2px solid #E0E5D6
+}

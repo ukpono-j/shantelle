@@ -1,0 +1,74 @@
+.dance-one-left{
+    height: auto;
+    width: 40%;
+    border: 1px solid #fff;
+    margin: 100px 10px;
+    color: rgb(255, 255, 255);
+
+}
+.dance-one-right{
+    height: auto;
+    width: 40%;
+    border: 1px solid #fff;
+   margin: 100px 10px;
+   color: rgb(255, 255, 255);
+       
+}
+.dance-one-left h4{
+    font-family: "Poppins";
+    font-family: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+
+}
+.dance-one-left h5{
+    font-family: "Poppins";
+    font-weight: 100;
+    padding-top: 13px;
+    color: #b2b2b2;
+    font-size: 18px;
+}
+.dance-one-left h1{
+    padding-top: 20px;
+    /* font-family: "Rajdhani", sans-serif; */
+    font-family: 'Lilita One', cursive;
+    font-weight: 700;
+    line-height: 73px;
+    font-size: 74px;
+}
+.dance-one-right h4{
+    font-family: 'Lilita One', cursive;
+    color: #b2b2b2;
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 19px;
+
+}
+.dance-one-right h5{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Poppins"; */
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+@media screen and (max-width: 789px){
+    .dance-one-left{
+        height: auto;
+        width: 100%;
+        border: 1px solid #fff;
+        margin: 0px 0px;
+        color: rgb(255, 255, 255);
+    
+    }
+    .dance-one-right{
+        height: auto;
+        width: 100%;
+       margin: 0px 0px;
+    }
+    .dance-one-left h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

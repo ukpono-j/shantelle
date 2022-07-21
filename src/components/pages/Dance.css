@@ -1,0 +1,43 @@
+.dance-one{
+    display: flex;
+    background: black;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    width: 100%;
+    height: auto;
+
+}
+@media screen and (max-width: 789px){
+    .dance-one{
+        display: block;
+    
+    }
+}
+.create-awesome{
+    height: auto;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 80px 40px;
+}
+.create-awe-container{
+    width: 42%;
+    font-weight: 700;
+    border: 1px solid #000;
+}
+
+
+@media screen and (max-width: 900px){
+    .create-awesome{
+        padding: 30px 30px;
+    }
+    .create-awe-container{
+        width: 100%;
+        font-weight: 700;
+        border: 1px solid #000;
+    }
+    .dance-one{
+        padding: 30px;
+    
+    }
+}

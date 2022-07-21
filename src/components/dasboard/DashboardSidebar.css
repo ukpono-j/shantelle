@@ -1,0 +1,75 @@
+.dashboard-sidebar{
+    height: 90vh;
+    width: 240px;
+    /* border: 3px solid black; */
+    background-color: #212529;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.app-scd{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.dashboard-sidebar li{
+    list-style: none;
+    padding-left: 13px;
+    margin-top: 2px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0 1px 3px #00000026;
+    
+}
+.dashboard-sidebar > div{
+    padding-left: 8px;
+
+}
+.dashboard-sidebar-link{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+.dashboard-sidebar-link span{
+    padding-left: 5px;
+}
+.dashboard-sidebar li:hover{
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.dashboard-sidebar li:hover .dashboard-sidebar-link{
+    color: black;
+    /* padding-left: 13px; */
+}
+.dashboard-sidebar{
+    overflow-y: scroll;
+}
+
+
+
+/* width */
+.dashboard-sidebar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .dashboard-sidebar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    /* border-radius: 10px; */
+  }
+   
+  /* Handle */
+  .dashboard-sidebar::-webkit-scrollbar-thumb {
+    background: #495057; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .dashboard-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #495057; 
+  }

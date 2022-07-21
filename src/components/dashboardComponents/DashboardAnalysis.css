@@ -1,0 +1,208 @@
+.dashboard-analysis{
+    display: flex;
+    margin-top: 20px;
+}
+.dashboard-analysis-bx{
+    height: 110px;
+    border-radius: 30px;
+    background-color: white;
+    /* background-color: rgb(200, 250, 205); */
+    /* background-color: #FAFAFA; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 2px #00000026;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    padding: 23px 30px;
+    margin: 12px;
+    width: 300px;
+    /* border: 1px solid black; */
+}
+
+.dashboard-analysis-bx h3{
+    color: #212529;
+    font-size: 17px;
+    font-weight: 300;
+}
+.dashboard-analysis-bx p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 5px;
+    color: #828f99;
+    
+}
+.dashboard-analysis-bx:hover{
+    /* background-color: #f68b1e ; */
+    /* background-color: #ffd333; */
+    /* background-color: #1976d2; */
+    background-color: #1B4541;
+    /* background-color: #f0c735; */
+    /* border: 1px solid white; */
+}
+.dashboard-analysis-bx:hover p, h3{
+    color: white;
+}
+.dashboard-analysis-bx:hover h3{
+    color: white;
+}
+.dashboard-anal{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid  red; */
+    display: flex;
+}
+.dashboard-anal > div{
+    margin: 12px;
+    background-color: white;
+}
+.dashboard-anal-1{
+    height: auto;
+    width: 50%;
+    box-shadow: 0 1px 3px #00000026;
+    border-radius: 30px;
+}
+.dashboard-anal-1 h4{
+    padding: 20px 20px 6px;
+}
+ h4{
+    font-weight: 300;
+}
+
+.dashboard-anal-2{
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 1px 3px #00000026;
+    /* border: 1px solid #000; */
+    border-radius: 30px;
+}
+.anal-container{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 1px 3px #00000026;
+    /* border: 1px solid  #000; */
+    /* overflow-y: scroll; */
+    border-radius: 30px;
+    background-color: white;
+}
+.anal-1{
+    padding: 12px;
+}
+.anal-1 h1{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 700;   
+    line-height: 50px;
+}
+.Export{
+    height: auto;
+    padding: 0px 13px;
+    /* border: 1px solid #000; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.export-container{
+    display: flex;
+}
+.export-container select{
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 150px;
+    border: 1px solid  rgb(199, 198, 198);
+    outline: none;
+}
+.export-container > div{
+    margin-left: 12px;
+    height: 36px;
+    width: 100px;
+    /* background-color: #ffd333; */
+    background-color: #1B4541;
+    /* background-color: #f2ce4c; */
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+}
+.order-table{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.order-table th{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.order-table td{
+    height: 40px;
+    padding-left: 20px;
+    color: #212529;
+    font-size: 13px;
+}
+.anal-container h4{
+    color: #212529;
+    padding: 30px 20px 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.an-table{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.an-table th{
+    text-align: left;
+    height: 30px;
+    padding-left: 20px;
+    color: #454d53;
+    font-size: 14px;
+}
+.an-table td{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    font-size: 13px;
+    color: #454d53;
+
+}
+.an-left{
+    text-align: right;
+}
+.total-anal-no{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #d9ecff;
+    color: #004b9a;
+}
+.anal-total-container{
+    padding:10px 20px;
+}
+.order-table thead, tbody, tfoot, tr, td, th{
+    border-bottom: 1px solid #2125291a;
+}
+.inbox-static{
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+    /* border: 1px solid #000; */
+}
+.inbox-static table{
+    width: 100%;
+}
+.inbox-static table th{
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+}
+.inbox-static tr td{
+    font-size: 13px;
+    line-height: 46px;
+}
